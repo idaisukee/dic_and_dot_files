@@ -1,0 +1,83 @@
+
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+keysym 0 = 0 parenright
+keysym 1 = 1 exclam
+keysym 2 = 2 at
+keysym 3 = 3 numbersign
+keysym 4 = 4 dollar
+keysym 5 = 5 percent
+keysym 6 = 6 asciicircum
+keysym 7 = 7 ampersand
+keysym 8 = 8 asterisk
+keysym 9 = 9 parenleft
+keysym a = a A
+! *after* the keysyms for bracketleft and bracketright,
+! and come out with gibberish!
+! ANSI Dvorak keyboard
+! Author: Jeff Bigler (jcb@mit.edu)
+keysym b = x X
+! back to its previous state, first run xmodmap -pke and
+! before switching the keyboard, you can then type:
+keysym bracketleft = slash question
+keysym bracketright = equal plus
+! by giving that file as an argument to xmodmap.  For
+keysym c = j J
+keysym comma = w W
+keysym d = e E
+keysym e = period greater
+keysym equal = bracketright braceright
+! example, if you type:
+keysym f = u U
+keysym g = i I
+keysym h = d D
+keysym i = c C
+! If you want to be easily able to switch the keyboard
+keysym j = h H
+keysym k = t T
+! keysyms for the 8 and 9 keys are not defined explicitly
+keysym l = n N
+! Last modified: 1996/08/27 13:45:30 by jcb@mit.edu
+keysym m = m M
+keysym minus = bracketleft braceleft
+keysym n = b B
+! no effect are still included) because of conflicts with
+! Note that if you pass this file again as an argument to
+keysym o = r R
+! of the file (and translations that would normally have
+keysym p = l L
+keysym period = v V
+! plus", respectively.
+keysym q = quoteright quotedbl
+keysym quoteright = minus underscore
+keysym r = p P
+! redirect the output to a file.  Then you can switch back
+keysym s = o O
+keysym semicolon = s S
+keysym slash = z Z
+! some of the extended keysyms on HP workstations.  If the
+! switch from a qwerty to a Dvorak keyboard.
+keysym t = y Y
+! The keysyms for the top row have been moved to the end
+! they end up getting bound to "slash question" and "equal
+! This file should be given as an argument to xmodmap to
+! to reset the keyboard to its previous state.
+keysym u = g G
+keysym v = k K
+keysym w = comma less
+keysym x = q Q
+!     xmodmap -pke > /tmp/keyboard.default	
+!     xmodmap /tmp/keyboard.default
+! xmodmap, you will apply these translations a second time
+keysym y = f F
+keysym z = semicolon colon
