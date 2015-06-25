@@ -1,0 +1,31 @@
+[user]
+	name = Daisuke INOUE
+	email = hibariyashiki@gmail.com
+[core]
+	autocrlf = false
+[alias]                                                                         
+    br = branch                                                                 
+    bra = branch -a                                                             
+    brd = branch -d                                                             
+    co = checkout                                                               
+    cm = checkout master                                                        
+    cd = checkout develop                                                       
+    cb = checkout -b                                                            
+    rehaed = reset HEAD                                                         
+    reb = rebase                                                                
+    rebi = rebase -i                                                            
+    red = rebase develop                                                        
+    com = commit                                                                
+    acom = commit -a                                                            
+    cmt = commit -m tmp                                                         
+    acmt = commit -am tmp                                                       
+    btmp = reset HEAD^                                                          
+    df = diff                                                                   
+    dfs = diff --staged                                                         
+    sdf = diff --staged                                                         
+    st = status                                                                 
+    sh = stash                                                                  
+    sl = stash list                                                             
+    sp = stash pop                                                              
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative            
+    lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
