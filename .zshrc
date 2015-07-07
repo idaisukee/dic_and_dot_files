@@ -15,6 +15,9 @@ alias wie1='ruby $HOME/connect_elms-g.rb'
 alias wie2='ruby $HOME/login_elms-g.rb'
 alias wie='wie1; sleep 15; wie2'
 
+alias n0='nmcli c up id 00xx'
+alias nh='nmcli c up id HINES-WLAN'
+
 alias nmr='sudo service network-manager restart'
 alias scan='wicd-cli -ySl'
 alias wi0='wicd-cli -yScp00xx'
