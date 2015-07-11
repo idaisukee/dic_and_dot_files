@@ -4,6 +4,10 @@ bindkey '^B' backward-delete-char
 bindkey '^D' backward-char
 bindkey '^N' forward-char
 bindkey '^R' delete-char-or-list
+bindkey '^H' down-line-or-history
+bindkey '^T' up-line-or-history
+
+
 
 alias ls='ls -a'
 alias wi='wicd-cli'
