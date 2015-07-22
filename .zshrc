@@ -32,4 +32,6 @@ alias schb='apt-cache -t "wheezy-backports" search'
 alias itl='sudo apt-get install'
 alias itlb='sudo apt-get -t "wheezy-backports" install'
 
+alias pow='upower -d | grep percentage'
+
 prompt='%~%# '
